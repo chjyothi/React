@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+.imageDiv {
+  height:150px;
+  width:18%;;
+
+}
+#container {
+  display:flex;
+  justify-content:space-evenly;
+  height: 50px;
+}
+button {
+  height: 40px;
+  width:65px;
+  text-align: center;
+}
+table {
+  margin-left:auto;
+  margin-right:auto;
+  border: 1px solid black;
+}
