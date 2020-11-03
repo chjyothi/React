@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  padding-top: 35px;
+  
+}
+
+.flex-container {
+   display:inline-flex;
+   flex-wrap: wrap-reverse;
+   align-items: center;
+   padding-top: 15px;
+   width: 400px;
+   background-color: rgb(221, 221, 221);
+ 
+    /* box-shadow: 0 10px #999; */
+
+}
+button {
+  /* display: inline-block; */
+ 
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 2px rgb(221, 220, 220);
+  background-color: #eeecec;
+  width: 70px;
+  margin: 15px;
+  line-height: 40px;
+  font-size: 20px;
+}
+.result {
+  width: 400px;
+  display:inline-flex;
+  line-height: 60px;
+  background-color: rgb(179, 175, 175);
+}
