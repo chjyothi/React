@@ -12,7 +12,11 @@ export default class Form1 extends Component{
         emailErr:'',
         age:'',
         ageErr:'',
-        phone: ""}
+        phone: '',
+     addressErr:'',
+     stat:'',
+     statErr:''
+     }
         // this.ValidName=this.ValidName.bind(this);
         
     }
@@ -61,8 +65,10 @@ export default class Form1 extends Component{
         this.ValidName(this.name.value);
         this.validAge(parseInt(this.age.value));
        this.validateEmail(this.email.value);
+       this.validateState(this.stat.value);
     }
     render() {
+    
         return (
             <div>
                 name:
@@ -84,20 +90,43 @@ export default class Form1 extends Component{
            <input
           ref={(mailInput) => this.age = mailInput}
           onKeyUp={this.keyPressed}
-          type='number'
+          type='text'
         /><br/>
          <div style={{fontSize:12, color: "red"}}>{this.state.ageErr}</div>  
-        {/* Phone number field */}
-         <ReactPhoneInput 
-          inputExtraProps={{
-            name: "phone",
-            required: true,
-            autoFocus: true
-          }}
-          defaultCountry={"us"}
-          value={this.state.phone}
-          onChange={this.handleOnChange}
-        />
+        <ReactPhoneInput
+      inputStyle={{color:'green'}}
+      containerStyle={{margin:'20px'}}
+      buttonStyle={{}}
+      dropdownStyle={{height:'50px'}}
+      country={"us"}
+      value="1425652"
+      onChange={this.handleOnChange}
+      />
+      
+       address:
+                 <input 
+           ref={(snameInput)=>this.address = snameInput}
+           onKeyDown={this.keyPressed}
+           type="text"/>
+           <br></br>
+           
+           DOB:
+                 <input 
+           ref={(snameInput)=>this.Dob = snameInput}
+           onKeyDown={this.keyPressed}
+           type="date"/>
+           <br></br>
+        <div style={{fontSize:12, color: "red"}}>{this.state.DobErr}</div>
+
+           State:
+                 <input 
+           ref={(snameInput)=>this.stat = snameInput}
+           onKeyDown={this.keyPressed}
+           type="text"/>
+           <br></br>
+        <div style={{fontSize:12, color: "red"}}>{this.state.statErr}</div>
+
+      
 
         <input type='submit' value='Submit' onClick={this.submitfun} />
         <br></br>
