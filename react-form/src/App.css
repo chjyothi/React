@@ -1,7 +1,49 @@
 .App {
+  font-family: sans-serif;
   text-align: center;
 }
 
-.list-container {
-  display:flex;
+table, th,td {
+  border:1px solid black;
+  border-collapse:collapse;
 }
+
+/* .formclass {
+  width:50%;
+  background-color: gray;
+  align-items: center;
+ } */
+input[type=text], select {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 40%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}input[type=date] {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
