@@ -1,0 +1,56 @@
+.contentView {
+  width: 20%;
+  background-color: rgb(226, 225, 223);
+  /* margin: 12px auto; */
+  border:1px solid #eee;
+  box-shadow: darkgrey;
+  text-align: center;
+  padding:16px;
+}
+/* .container {
+  display: flex;
+  justify-content:space-evenly;
+  background-color: rgb(226, 225, 223);
+  width:40%;
+  margin: 12px auto;
+  border:1px solid #eee;
+  box-shadow: darkgrey;
+  text-align: center;
+  padding:16px;
+ 
+} */
+.btn {
+    width: 70%;
+    margin:auto;
+}
+button {
+  /* width:60%; */
+  padding:2px;
+}
+h4 {
+  text-align: center;
+}
+.noteEdit {
+  width:20%;
+  margin:auto;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content:space-around;
+  background-color: rgb(236, 231, 231);
+  height:40px;
+  text-align: center;
+  padding-top: 10px;
+ 
+}
+li {
+  float:left;
+  
+}
+.textbox {
+ position:absolute;
+}
+.inputB {
+  text-align: center;
+}
