@@ -1,0 +1,111 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* text-decoration: none; */
+  /* transform: rotateY(180deg); */
+}
+
+/* .QStyle {
+  background-color: rgb(203, 189, 241);
+  width: 20%;
+  line-height: 180px;
+  text-align: center;
+}
+ 
+.AStyle {
+  background-color: rgb(121, 236, 68);
+  width: 20%;
+  line-height: 180px;
+  text-align: center;
+} */
+
+h4 {
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  display:flex;
+  justify-content: space-around;
+  background-color: rgb(227, 225, 228);
+  line-height: 40px;
+}
+li{
+  text-decoration: none;
+}
+.Question {
+  background-color: honeydew;
+}
+.Card {
+  width: 40%;
+  margin: 8px auto;
+  background-color: rgb(187, 181, 243);
+  text-align: center;
+  padding: 4px;
+  display: grid;
+}
+.option {
+  width: 40%;
+  margin:4px auto;
+  padding:2px;
+  background-color: white;
+}
+
+/* popup css */
+
+.modalContainer {
+  background-color:rgb(106, 245, 222);
+  position: fixed;
+  padding: 2em;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.modalclose {
+  float: right;
+  border-radius:10%;
+  line-height: 20px;
+  background-color: rgb(7, 99, 99);
+  border: none;
+}
+
+
+.btn {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 573px;
+  margin-top: 22px;
+  margin-bottom: 82px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+footer {
+  background-color: rgb(235, 242, 247);
+}
+.heading {
+  text-align: center;
+}
+/* .modalContainer {
+  font-family: sans-serif;
+  text-align: center;
+}
+.modal {
+  background: rgba(0, 0, 0, 0.6);
+}
+.modal-container {
+  position: absolute;
+  width: 60%;
+  background: #ffffff;
+  left: 25%;
+  top: 30%;
+  padding: 20px;
+} */
