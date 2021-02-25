@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+.item {
+  background-color: cornflowerblue;
+  width:40%;
+  margin : 15px auto;
+  
+}
+/* .dat {
+  display: inline-block;
+} */
